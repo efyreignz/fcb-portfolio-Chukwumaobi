@@ -1,0 +1,52 @@
+*{
+	font-family: "Roboto",sans-serif;
+}
+
+h1, h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 14%;
+	width: 10%;
+}
+
+#landing{
+/*vh- viewport height- a determined or measured percentage of the the device you re viewing your webpage in.*/
+height: 80vh;
+/*flexbox- display: flex will allow us to arrange or layout the elements inside our landing section vertically and horizontally*/
+
+display: flex;
+/*flex-direction chnages the direction of the elements inside an element wiyh display: flex*/
+/*flex-direction: column arranges elements horizontally if the items are in a row */
+flex-direction: column;
+
+align-items: center;
+justify-content: center;
+
+}
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.tools {
+	/*border - line around the element*/
+	border: 5px solid #f2f2f2;
+	/*margin - space outside the element*/
+	margin: 20px;
+	/*padding - space inside the element*/
+	padding: 25px;
+	height: 200px;
+	/*percentage as a measurement for width is based on the total width of the parent element*/
+	width: 75%;
+}
+html {
+	scroll-behavior: smooth;
+}
